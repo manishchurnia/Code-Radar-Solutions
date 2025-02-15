@@ -10,6 +10,9 @@ int main (){
         for(k=1; k<=n; k++){
             printf("%d ", k);
         }
+        for (k = i - 1; k >= 1; k--) {
+            printf("%d ", k);
+        }
         printf("\n");
     }
     return 0;
