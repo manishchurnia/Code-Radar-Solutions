@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main (){
-    int n,i,result;
+    int n,i;
     scanf("%d", &n);
-    result = 1;
     for(i=1; i<=10; i++){
         result*=i;
-        printf("%d X %d = %d\n", n, i, result);
+        printf("%d X %d = %d\n", n, i, n*i);
     }
     return 0;
 }
