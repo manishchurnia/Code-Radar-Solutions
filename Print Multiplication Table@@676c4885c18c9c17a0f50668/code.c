@@ -6,7 +6,7 @@ int main (){
     result = 1;
     for(i=1; i<=10; i++){
         result*=i;
-        printf("%d X %d = %d", n, i, result);
+        printf("%d X %d = %d\n", n, i, result);
     }
     return 0;
 }
