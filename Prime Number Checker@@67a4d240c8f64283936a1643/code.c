@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int prime_check(int num){
-      if (num <= 1){
+int main (){
+    int num;
+    scanf("%d", &num);
+          if (num <= 1){
         printf("0");
     }
     else if (num == 2 || num == 3 || num == 5 || num == 7){
@@ -13,10 +15,5 @@ int prime_check(int num){
     else{
         printf("1");
     }
-}
-int main (){
-    int n;
-    scanf("%d", &n);
-    printf(prime_check(n));
     return 0;
 }
