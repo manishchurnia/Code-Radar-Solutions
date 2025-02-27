@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-int main (){
+int main() {
     int num;
+    printf("Enter a number: ");
     scanf("%d", &num);
-          if (num <= 1){
+
+    
+    if (num <= 1){
         printf("0");
     }
     else if (num == 2 || num == 3 || num == 5 || num == 7){
@@ -15,5 +18,6 @@ int main (){
     else{
         printf("1");
     }
+
     return 0;
 }
