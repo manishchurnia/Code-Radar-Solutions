@@ -14,6 +14,6 @@ void fibonacciSeries(int a){
 int main(){
     int n;
     scanf("%d", &n);
-    fibonacciSeries(n)
+    fibonacciSeries(n);
     return 0;
 }
