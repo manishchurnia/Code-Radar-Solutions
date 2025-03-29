@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void fibonacciSeries(int n){
+void fibonacciSeries(int n) {
     int a=0, b=1, next;
     for(int i=0; i<n; i++){
         printf("%d ", a);
@@ -11,7 +11,7 @@ void fibonacciSeries(int n){
 }
 
 
-int main(){
+int main() {
     int n;
     scanf("%d", &n);
     if(n<=0){
@@ -19,6 +19,6 @@ int main(){
         return 0;
     }
     fibonacciSeries(n);
-    
+
     return 0;
 }
